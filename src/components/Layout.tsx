@@ -74,7 +74,7 @@ export function Layout({ children, activeTab, onTabChange, dataCounts, onClearDa
                 <Activity className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h1 className="text-lg font-semibold text-gray-900">CareFlow</h1>
+                <h1 className="text-lg font-semibold text-gray-900">FlowCure</h1>
                 <p className="text-xs text-gray-500">Multi-Department Hospital Network</p>
               </div>
             </div>
@@ -186,7 +186,7 @@ export function Layout({ children, activeTab, onTabChange, dataCounts, onClearDa
               <span>{dataCounts.doctors} doctors</span>
               <span>{dataCounts.readmissions} readmissions</span>
             </div>
-            <span>CareFlow Dashboard</span>
+            <span>FlowCure Dashboard</span>
           </div>
         </div>
       </footer>

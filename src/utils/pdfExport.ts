@@ -329,7 +329,7 @@ function generateHTMLReport(report: ExecutiveReport): string {
   `).join('')}
 
   <div class="footer">
-    <p>CareFlow - Bottleneck Intelligence System</p>
+    <p>FlowCure - Bottleneck Intelligence System</p>
     <p>This report is generated from operational data and provides actionable insights for decision-making.</p>
   </div>
 </body>

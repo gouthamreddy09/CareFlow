@@ -59,7 +59,7 @@ export function SignupPage({ onSwitchToLogin }: SignupPageProps) {
           Create Account
         </h1>
         <p className="text-center text-gray-600 mb-8">
-          Join CareFlow to access healthcare analytics
+          Join FlowCure to access healthcare analytics
         </p>
 
         {error && (

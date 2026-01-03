@@ -1,6 +1,6 @@
-# CareFlow
+# FlowCure
 
-A comprehensive healthcare analytics platform for multi-department hospital networks. CareFlow provides real-time insights into patient flow, bottleneck detection, predictive analytics, and operational optimization.
+A comprehensive healthcare analytics platform for multi-department hospital networks. FlowCure provides real-time insights into patient flow, bottleneck detection, predictive analytics, and operational optimization.
 
 ## Features
 
@@ -42,7 +42,7 @@ A comprehensive healthcare analytics platform for multi-department hospital netw
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd careflow
+cd flowcure
 ```
 
 2. Install dependencies:
@@ -97,7 +97,7 @@ All tables are protected with Row Level Security (RLS) policies ensuring data is
 
 ## Role-Based Access Control
 
-CareFlow supports four user roles with specific access permissions:
+FlowCure supports four user roles with specific access permissions:
 
 ### Admin
 - Full access to all features
@@ -162,7 +162,7 @@ The platform accepts three types of CSV files:
 ## Project Structure
 
 ```
-careflow/
+flowcure/
 ├── src/
 │   ├── components/          # React components
 │   │   ├── auth/           # Authentication pages

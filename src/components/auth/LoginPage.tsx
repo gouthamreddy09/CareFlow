@@ -43,7 +43,7 @@ export function LoginPage({ onSwitchToSignup }: LoginPageProps) {
         </div>
 
         <h1 className="text-3xl font-bold text-center text-gray-900 mb-2">
-          Welcome to CareFlow
+          Welcome to FlowCure
         </h1>
         <p className="text-center text-gray-600 mb-8">
           Sign in to access your healthcare analytics dashboard

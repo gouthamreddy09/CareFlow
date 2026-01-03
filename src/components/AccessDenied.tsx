@@ -18,7 +18,7 @@ export function AccessDenied() {
 
         <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
           <p className="text-sm text-gray-700">
-            Your current role may not have access to this feature. Different roles have different permissions within CareFlow.
+            Your current role may not have access to this feature. Different roles have different permissions within FlowCure.
           </p>
         </div>
       </div>
