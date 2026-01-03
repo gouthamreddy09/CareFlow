@@ -178,6 +178,23 @@ careflow/
 └── dist/                   # Production build
 ```
 
+## Deployment
+
+### Netlify
+
+This project is configured for easy deployment to Netlify:
+
+1. Push your code to GitHub
+2. Connect your repository to Netlify
+3. Configure build settings:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+4. Add environment variables in Netlify dashboard (Site settings > Environment variables):
+   - `VITE_SUPABASE_URL` - Your Supabase project URL
+   - `VITE_SUPABASE_ANON_KEY` - Your Supabase anonymous key
+
+The `netlify.toml` and `public/_redirects` files are included for proper SPA routing.
+
 ## Development
 
 ### Run type checking:
